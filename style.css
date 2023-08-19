@@ -35,8 +35,8 @@ html,body{
     text-align: center;
     background-color: #000000;
     box-shadow: 5px 5px 10px rgb(0,0,0,2);
-    height: 50vh;
-    width: 360px;
+    height: 150px;
+    width: 340px;
 }
 .display{
     /* border: 1px solid black;
