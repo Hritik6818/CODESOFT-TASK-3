@@ -26,10 +26,9 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-     height:100vh;
+    height: 100vh;
     margin: 0;
     background-color: #30fdab;
-    
 }
  .calculator{
     border: 1px solid rgb(0, 0, 0);
@@ -37,21 +36,21 @@ html,body{
     text-align: center;
     background-color: #000000;
     box-shadow: 5px 5px 10px rgb(0,0,0,2);
-    height:68vh;
-    width: 340px;
+    height: 68vh;
+    width: 300px;
 }
 .display{
     /* border: 1px solid black;
     width: 90px; */
     margin-bottom: 40px;
 }
-input{
+.ri{
+    width: 90%;
     font-size: 2vw;
     font-weight: 400;
     height: 9vh;
-}
+} 
 #hr{
-    /* padding-top: 12px;    */
     color: aliceblue;
 }
 
@@ -71,7 +70,7 @@ input{
 } 
 .digit{
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 3vw;
     height: 8vh;
 }
 .operator{
@@ -100,4 +99,41 @@ input{
     font-weight: 800;
     font-size: 2vw;
 }
+@media (max-width:600px) {
+    .ri{
+        width: 90%;
+        font-size: 12vw;
+        font-weight: 400;
+        height: 9vh;
+    } 
+    .digit{
+        font-size: 12vw;
+    }
+    .operator{
+        font-size: 12vw;
 
+    }
+    #clear{
+        font-size: 8vw;
+    }
+    #bracket{
+        font-size: 8vw;
+    
+    }
+    #delete{
+        font-size: 8vw;
+    }
+    #calculate{
+        font-size: 8vw;
+    }
+    #sh{
+        font-size: 8vw;
+    }
+    .display{
+        /* border: 1px solid black;
+        width: 90px; */
+        font-size: 13vw;
+        font-weight: 400;
+    }
+}
+ 
